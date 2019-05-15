@@ -19,11 +19,11 @@ public class StudentTester {
         //array of StudentDemo objects
         StudentDemo[] StudentLst=new StudentDemo[3];
         
-        StudentDemo s1=new StudentDemo("Sheetal Thakar");
+        StudentDemo s1=new StudentDemo(" Thakar");
         StudentLst[0]=s1;
         
-        StudentLst[1]=new StudentDemo("amrit kaur");
-        StudentLst[2]=new StudentDemo("Malav Jani");
+        StudentLst[1]=new StudentDemo(" kaur");
+        StudentLst[2]=new StudentDemo(" Jani");
         
         for(int i=0;i<StudentLst.length;i++)
         {
