@@ -15,6 +15,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class StudentDemo {
 
     private String name;
+    private int sid;
 
     //constructor
     public StudentDemo(String givenName)
@@ -33,8 +34,22 @@ public class StudentDemo {
      */
     public void setName(String givenName) {
         name = givenName;
-        System.out.print(pull);
-        https://github.com/RohnitSingh/WedClass.git
+        //System.out.print(pull);
+        //https://github.com/RohnitSingh/WedClass.git
+    }
+
+    /**
+     * @return the sid
+     */
+    public int getSid() {
+        return sid;
+    }
+
+    /**
+     * @param sid the sid to set
+     */
+    public void setSid(int sid) {
+        this.sid = sid;
     }
 
     
