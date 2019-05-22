@@ -14,8 +14,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class StudentDemo {
 
-    private String nameR;
-    private int studentId;
+    private String name;
 
     //constructor
     public StudentDemo(String givenName)
