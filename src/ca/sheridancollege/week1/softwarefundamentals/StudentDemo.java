@@ -33,6 +33,7 @@ public class StudentDemo {
      */
     public void setName(String givenName) {
         name = givenName;
+        System.out.print(pull);
     }
     
     
